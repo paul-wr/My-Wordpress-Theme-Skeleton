@@ -11,6 +11,8 @@ function skeleton_theme_support(){
     add_theme_support( 'menus' );
     register_nav_menu('primary', 'Prmary Header Navigation');
     register_nav_menu('secondary', 'Footer Navigation');
+    
+    add_theme_support( 'post-thumbnails' );
 }
 add_action('init', 'skeleton_theme_support');
 

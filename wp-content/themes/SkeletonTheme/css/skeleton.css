@@ -5,3 +5,13 @@ html, body {
 .your-nav-class {
     list-style-type: none;
 }
+
+.post-categories {
+    list-style-type: none;
+    display: inline;
+    padding-left: 5px;
+}
+
+.post-categories li {
+    display: inline!important;
+}
