@@ -1,0 +1,16 @@
+[22-May-2018 11:06:27 UTC] PHP Warning:  Missing argument 1 for add_action(), called in /home/ubuntu/workspace/wp-content/themes/SkeletonTheme/functions.php on line 11 and defined in /home/ubuntu/workspace/wp-includes/plugin.php on line 398
+[22-May-2018 11:06:27 UTC] PHP Stack trace:
+[22-May-2018 11:06:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[22-May-2018 11:06:27 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[22-May-2018 11:06:27 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[22-May-2018 11:06:27 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[22-May-2018 11:06:27 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:424
+[22-May-2018 11:06:27 UTC] PHP   6. add_action() /home/ubuntu/workspace/wp-content/themes/SkeletonTheme/functions.php:11
+[22-May-2018 11:06:27 UTC] PHP Warning:  Missing argument 2 for add_action(), called in /home/ubuntu/workspace/wp-content/themes/SkeletonTheme/functions.php on line 11 and defined in /home/ubuntu/workspace/wp-includes/plugin.php on line 398
+[22-May-2018 11:06:27 UTC] PHP Stack trace:
+[22-May-2018 11:06:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[22-May-2018 11:06:27 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[22-May-2018 11:06:27 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[22-May-2018 11:06:27 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[22-May-2018 11:06:27 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:424
+[22-May-2018 11:06:27 UTC] PHP   6. add_action() /home/ubuntu/workspace/wp-content/themes/SkeletonTheme/functions.php:11
