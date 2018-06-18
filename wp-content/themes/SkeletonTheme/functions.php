@@ -34,8 +34,8 @@ function my_wp_widget_setup(){
         'description' => 'Standard Sidebar',
         'before_widget' => '<aside id="%1$s" class="widget %2$s">',
     	'after_widget'  => '</aside>',
-    	'before_title'  => '<h2 class="widget-title">',
-    	'after_title'   => '</h2>'
+    	'before_title'  => '<h1 class="widget-title">',
+    	'after_title'   => '</h1>',
         )
     );
 }
