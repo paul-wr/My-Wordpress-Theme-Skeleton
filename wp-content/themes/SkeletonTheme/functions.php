@@ -21,4 +21,25 @@ function skeleton_theme_support(){
 }
 add_action('init', 'skeleton_theme_support');
 
+/*
+ ===================
+ Sidebar function
+ ===================
+*/
+function my_wp_widget_setup(){
+    register_sidebar(array(
+        'name' => 'Sidebar',
+        'id' => 'sidebar-1',
+        'class' => 'custom',
+        'description' => 'Standard Sidebar',
+        'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+    	'after_widget'  => '</aside>',
+    	'before_title'  => '<h2 class="widget-title">',
+    	'after_title'   => '</h2>'
+        )
+    );
+}
+
+add_action('widgets_init', 'my_wp_widget_setup');
+
 ?>
