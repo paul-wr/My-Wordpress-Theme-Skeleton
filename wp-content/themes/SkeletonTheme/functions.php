@@ -13,6 +13,11 @@ function skeleton_theme_support(){
     register_nav_menu('secondary', 'Footer Navigation');
     
     add_theme_support( 'post-thumbnails' );
+    
+    add_theme_support('custom-background');
+    
+    add_theme_support('custom-header');
+
 }
 add_action('init', 'skeleton_theme_support');
 

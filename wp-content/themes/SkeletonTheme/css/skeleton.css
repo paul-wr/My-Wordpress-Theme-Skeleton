@@ -1,7 +1,10 @@
 html, body {
     margin: 0;
 }
-
+#wrapper {
+    padding: 20px;
+    width: 100%;
+}
 .your-nav-class {
     list-style-type: none;
 }
@@ -14,4 +17,50 @@ html, body {
 
 .post-categories li {
     display: inline!important;
+}
+
+/*
+================
+responsive grid
+================
+*/
+.span1,.span2,.span3,.span4,.span5,.span6,.span7,.span8,.span9,.span10,.span11,.span12{
+	display: inline-block;
+	vertical-align: top;
+}
+.span1{
+	width: 8.2%;
+}
+.span2{
+	width: 16.4%;
+}
+.span3{
+	width: 24.6%;
+}
+.span4{
+	width: 32.8%;
+}
+.span5{
+	width: 41%;
+}
+.span6{
+	width: 49.2%;
+}
+.span7{
+	width: 56.4%;
+}
+.span8{
+	width: 65.6%;
+}
+.span9{
+	width: 73.8%; 
+}
+.span10{
+	width: 82%;
+}
+.span11{
+	width: 90.2%;
+}
+.span12{
+	width: 98.6%;
 }

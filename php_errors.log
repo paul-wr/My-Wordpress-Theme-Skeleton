@@ -14,3 +14,26 @@
 [22-May-2018 11:06:27 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
 [22-May-2018 11:06:27 UTC] PHP   5. include() /home/ubuntu/workspace/wp-settings.php:424
 [22-May-2018 11:06:27 UTC] PHP   6. add_action() /home/ubuntu/workspace/wp-content/themes/SkeletonTheme/functions.php:11
+[18-Jun-2018 14:02:55 UTC] PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in /home/ubuntu/workspace/wp-includes/media.php on line 2833
+[18-Jun-2018 14:02:55 UTC] PHP Stack trace:
+[18-Jun-2018 14:02:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[18-Jun-2018 14:02:55 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/admin-ajax.php:91
+[18-Jun-2018 14:02:55 UTC] PHP   3. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[18-Jun-2018 14:02:55 UTC] PHP   4. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:323
+[18-Jun-2018 14:02:55 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:298
+[18-Jun-2018 14:02:55 UTC] PHP   6. Custom_Image_Header->ajax_header_crop() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:298
+[18-Jun-2018 14:02:55 UTC] PHP   7. wp_crop_image() /home/ubuntu/workspace/wp-admin/custom-header.php:1237
+[18-Jun-2018 14:02:55 UTC] PHP   8. WP_Image_Editor_GD->crop() /home/ubuntu/workspace/wp-admin/includes/image.php:43
+[18-Jun-2018 14:02:55 UTC] PHP   9. wp_imagecreatetruecolor() /home/ubuntu/workspace/wp-includes/class-wp-image-editor-gd.php:286
+[18-Jun-2018 14:02:55 UTC] PHP  10. imagecreatetruecolor() /home/ubuntu/workspace/wp-includes/media.php:2833
+[18-Jun-2018 14:02:55 UTC] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/wp-includes/class-wp-image-editor-gd.php on line 296
+[18-Jun-2018 14:02:55 UTC] PHP Stack trace:
+[18-Jun-2018 14:02:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[18-Jun-2018 14:02:55 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/admin-ajax.php:91
+[18-Jun-2018 14:02:55 UTC] PHP   3. WP_Hook->do_action() /home/ubuntu/workspace/wp-includes/plugin.php:453
+[18-Jun-2018 14:02:55 UTC] PHP   4. WP_Hook->apply_filters() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:323
+[18-Jun-2018 14:02:55 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wp-includes/class-wp-hook.php:298}() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:298
+[18-Jun-2018 14:02:55 UTC] PHP   6. Custom_Image_Header->ajax_header_crop() /home/ubuntu/workspace/wp-includes/class-wp-hook.php:298
+[18-Jun-2018 14:02:55 UTC] PHP   7. wp_crop_image() /home/ubuntu/workspace/wp-admin/custom-header.php:1237
+[18-Jun-2018 14:02:55 UTC] PHP   8. WP_Image_Editor_GD->crop() /home/ubuntu/workspace/wp-admin/includes/image.php:43
+[18-Jun-2018 14:02:55 UTC] PHP   9. imagecopyresampled() /home/ubuntu/workspace/wp-includes/class-wp-image-editor-gd.php:296
